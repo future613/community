@@ -1,0 +1,90 @@
+.header{
+    width: 100%;
+    background-color: #1c6132;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.header-inner{
+    width: 1100px;
+    margin:0 auto;
+    display: flex;
+    line-height: 50px;
+    justify-content: space-between;
+}
+.header-inner-left{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-inner-right{
+    display: flex;
+    line-height: 50px;
+    justify-content: space-between;  
+    width: 300px;
+}
+.mymessage{
+    width: 100px;
+    border: 1px solid lightgray;
+    margin-right: 10px;
+    margin-top: 50px;
+    padding: 5px 5px;
+    background-color: #fff;
+   
+}
+.mymessage p{
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.mymessage img{
+    vertical-align: middle;
+}
+.mymessage>button{
+    width: 66px;
+    border-radius: 3px;
+    outline: none;
+    border: 0;
+    background-color: rgb(22, 148, 190);
+    color: #fff;
+    cursor: pointer;
+}
+.header h1{
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+.list2{
+    margin-right: 10px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    vertical-align: middle;
+    border: 0;
+}
+
+.header .login{
+    display: block;
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 15px;
+    background-color: #4f9639; 
+    outline: none;
+    border: none;
+    margin: auto 0;
+}
+.header button{
+    background-color: #1c6132;
+    border: none;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+.avatar_url{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
